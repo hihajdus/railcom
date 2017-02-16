@@ -1,6 +1,27 @@
 $medium: "(min-width: 480px) and (max-width: 767px)";
 
 @media #{$medium} {
+    body {
+        background: green;
+    }
+    // color of media
+    #home {
+        height: 400px;
+    }
 
+    #about {
+        height: 400px;
+    }
 
+    #products-1 {
+        height: 400px;
+    }
+
+    #products-2 {
+        height: 400px;
+    }
+
+    #contact {
+        height: 400px;
+    }
 }

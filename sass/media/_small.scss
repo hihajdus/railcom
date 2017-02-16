@@ -1,0 +1,28 @@
+$small: "(max-width: 479px)";
+
+@media #{$small} {
+    body {
+        background: yellow;
+    }
+    // color of media
+    #home {
+        height: 300px;
+    }
+
+    #about {
+        height: 300px;
+    }
+
+    #products-1 {
+        height: 300px;
+    }
+
+    #products-2 {
+        height: 300px;
+    }
+
+    #contact {
+        height: 300px;
+    }
+
+}

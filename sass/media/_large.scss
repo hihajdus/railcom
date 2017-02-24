@@ -2,27 +2,7 @@ $large: "(min-width: 768px) and (max-width: 1023px)";
 
 @media #{$large} {
     body {
-        background: blue;
-    }
-    // color of media
-    #home {
-        height: 600px;
+        background: green;
     }
 
-    #about {
-        height: 600px;
-    }
-
-    #products-1 {
-        height: 600px;
-    }
-
-    #products-2 {
-        height: 600px;
-    }
-
-    #contact {
-        height: 600px;
-    }
-    // sections height
 }

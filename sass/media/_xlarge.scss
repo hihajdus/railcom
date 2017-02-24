@@ -2,27 +2,7 @@ $xlarge: "(min-width: 1024px)";
 
 @media #{$xlarge} {
     body {
-        background: red;
-    }
-    // color of media
-    #home {
-        height: 900px;
+        background: blue;
     }
 
-    #about {
-        height: 900px;
-    }
-
-    #products-1 {
-        height: 900px;
-    }
-
-    #products-2 {
-        height: 900px;
-    }
-
-    #contact {
-        height: 900px;
-    }
-    // sections height
 }

@@ -2,27 +2,27 @@ $small: "(max-width: 479px)";
 
 @media #{$small} {
     body {
-        background: yellow;
+        background: orange;
     }
-    // color of media
+
+// -- HOME
+
     #home {
-        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 55vw;
+        width: 100%;
+
+        #home-logo {
+            width: 20%;
+            height: 5vw;
+        }
+
+        border-top: 1vw solid black;
     }
 
-    #about {
-        height: 300px;
-    }
 
-    #products-1 {
-        height: 300px;
-    }
-
-    #products-2 {
-        height: 300px;
-    }
-
-    #contact {
-        height: 300px;
-    }
 
 }

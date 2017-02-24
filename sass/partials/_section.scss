@@ -1,10 +1,29 @@
+// -- HOME
+
 #home {
-    
+    background-image: url('../images/tlo-head.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: " ";
 }
+
+#home-logo {
+    background-image: url('../images/logo-railcom.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: " ";
+}
+
+
+// -- ABOUT
 
 #about {
-
+    //background-image: url('../images/');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
+// -- PRODUCTS
 
 #products-1 {
 
@@ -13,6 +32,8 @@
 #products-2 {
 
 }
+
+// -- CONTACT
 
 #contact {
 

@@ -19,22 +19,61 @@
 
 #about {
     background-image: url('../images/tlo-about.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    content: " ";
+
 }
 
 // -- PRODUCTS
 
 #products-1 {
 
+    #products-common-rail {
+        //background-image: url('../images/tlo-about.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: orange;
+    }
+
+    #products-injector {
+        //background-image: url('../images/tlo-about.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: gray;
+    }
 }
 
 #products-2 {
-
+    visibility: hidden;
 }
 
 // -- CONTACT
 
 #contact {
+    background-image: url('../images/tlo-contact.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    #contact-1 {
+
+    }
+    #contact-2 {
+        visibility: hidden;
+    }
+    #footer {
+        #contact-logo {
+            background-image: url('../images/logo-contact.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            content: " ";
+        }
+        #studio-18 {
+            background-image: url('../images/logo-studio18.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            content: " ";
+        }
+    }
 
 }

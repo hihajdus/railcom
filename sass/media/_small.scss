@@ -121,11 +121,11 @@ $small: "(max-width: 479px)";
     height: 100vw;
     width: 100%;
 
-    //border-top: 2vw solid orange;
+    border-top: 2vw solid orange;
 
     #contact-1 {
         width: 100%;
-        height: 80vw;
+        height: 78vw;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -146,15 +146,22 @@ $small: "(max-width: 479px)";
 
         padding: 10vw;
 
-        border-top: 1vw solid red;
+        #contact-line {
+            border-top: 1vw solid red;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
 
         #contact-logo {
             width: 40%;
             height: 18vw;
+            margin: 2vw;
         }
         #studio-18 {
-            width: 40%;
+            width: 20%;
             height: 18vw;
+            margin: 4vw;
         }
     }
 }

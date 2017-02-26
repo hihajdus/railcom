@@ -36,6 +36,7 @@ $small: "(max-width: 479px)";
             height: 80vw;
             width: 80%;
             font-size: 15px;
+            background-color: red;
         }
         border-top: 2vw solid orange;
     }
@@ -53,26 +54,24 @@ $small: "(max-width: 479px)";
         width: 100%;
 
         #products-common-rail {
-
-
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             font-size: 15px;
-
             height: 50%;
             width: 100%;
 
             #common-rail {
-                display: flex;
-                justify-content: flex-end;
-                align-items: center;
+                background-color: red;
+                width: 85%;
+                height: 80vw;
 
-                //width: 80%;
                 #common-rail-head {
-                    //width: 80%;
                 }
 
                 #common-rail-paragraph {
-                    //width: 80%;
+
 
                 }
                 #common-rail-dedicated {
@@ -89,60 +88,73 @@ $small: "(max-width: 479px)";
         }
 
         #products-injector {
-            //display: flex;
-            //justify-content: flex-start;
-            //align-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
             font-size: 15px;
-
             height: 50%;
             width: 100%;
 
-            #injector-head {
+            #injector {
+                background-color: red;
+                width: 85%;
+                height: 80vw;
 
-            }
-            #injector-paragraph {
+                #injector-head {
 
-            }
-            #injector-dedicated {
+                }
+                #injector-paragraph {
 
+                }
+                #injector-dedicated {
+
+                }
             }
+
         }
     }
 
 // -- CONTACT
 
 #contact {
-    display: flex;
-
-    height: 55vw;
+    height: 100vw;
     width: 100%;
 
+    //border-top: 2vw solid orange;
+
     #contact-1 {
-        height: 80%;
+        width: 100%;
+        height: 80vw;
         display: flex;
         justify-content: flex-start;
         align-items: center;
+
+        padding: 10vw;
+
     }
     #contact-2 {
-        height: 80%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
+
     }
     #footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 20%;
+
+        height: 20vw;
+        width: 100%;
+
+        padding: 10vw;
+
+        border-top: 1vw solid red;
 
         #contact-logo {
-            width: 60px;
-            height: 40px;
+            width: 40%;
+            height: 18vw;
         }
         #studio-18 {
-            width: 60px;
-            height: 40px;
+            width: 40%;
+            height: 18vw;
         }
     }
 }

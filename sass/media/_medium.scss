@@ -1,8 +1,176 @@
-$medium: "(min-width: 480px) and (max-width: 767px)";
+$medium: "(min-width: 611px) and (max-width: 1023px)";
 
 @media #{$medium} {
     body {
-        background: yellow;
+        background: black;
+    }
+
+    // -- HOME
+
+        #home {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            //background-size: contain;
+            height: 600px;
+            width: 100%;
+
+            #home-logo {
+                width: 30vw;
+                height: 20%;
+            }
+            border-top: 1vw solid orange;
+        }
+
+    // -- ABOUT
+
+        #about {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            height: 600px;
+            width: 100%;
+            padding: 5vw;
+
+            #about-text {
+                height: 50%;
+                width: 50%;
+                //background-color: red;
+                padding: 2vw;
+            }
+            border-top: 1vw solid orange;
+        }
+
+    // -- PRODUCTS
+
+        #products-1 {
+            display: flex;
+            //justify-content: center;;
+            //align-items: center;
+
+            padding: 2vw;
+            background: white;
+
+            height: 600px;
+            width: 100%;
+
+            #products-common-rail {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                height: 100%;
+                width: 50%;
+
+                #common-rail {
+                    //background-color: red;
+                    width: 80%;
+                    height: 50%;
+                    padding: 2vw;
+
+
+                    #common-rail-head {
+                    }
+
+                    #common-rail-paragraph {
+
+
+                    }
+                    #common-rail-dedicated {
+
+                    }
+                    #common-rail-vw {
+
+                    }
+                    #common-rail-renault {
+
+                    }
+                }
+
+            }
+
+            #products-injector {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+
+                height: 100%;
+                width: 50%;
+
+                border-right: 1vw solid orange;
+
+
+                #injector {
+                    //background-color: red;
+                    width: 80%;
+                    height: 50%;
+                    padding: 2vw;
+
+
+                    #injector-head {
+
+                    }
+                    #injector-paragraph {
+
+                    }
+                    #injector-dedicated {
+
+                    }
+                }
+
+            }
+        }
+
+    // -- CONTACT
+
+    #contact {
+        height: 100vw;
+        width: 100%;
+
+        border-top: 1vw solid orange;
+
+        #contact-1 {
+            width: 100%;
+            height: 78vw;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            padding: 10vw;
+
+        }
+        #contact-2 {
+
+        }
+        #footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            height: 20vw;
+            width: 100%;
+
+            padding: 10vw;
+
+            #contact-line {
+                border-top: 1vw solid red;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            #contact-logo {
+                width: 40%;
+                height: 18vw;
+                margin: 2vw;
+            }
+            #studio-18 {
+                width: 20%;
+                height: 18vw;
+                margin: 4vw;
+            }
+        }
     }
 
 }

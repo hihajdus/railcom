@@ -1,4 +1,4 @@
-$small: "(max-width: 479px)";
+$small: "(max-width: 610px)";
 
 @media #{$small} {
     body {
@@ -35,8 +35,7 @@ $small: "(max-width: 479px)";
         #about-text {
             height: 80vw;
             width: 80%;
-            font-size: 15px;
-            background-color: red;
+            //background-color: red;
         }
         border-top: 2vw solid orange;
     }
@@ -58,12 +57,11 @@ $small: "(max-width: 479px)";
             justify-content: center;
             align-items: center;
 
-            font-size: 15px;
             height: 50%;
             width: 100%;
 
             #common-rail {
-                background-color: red;
+                //background-color: red;
                 width: 85%;
                 height: 80vw;
 
@@ -92,12 +90,11 @@ $small: "(max-width: 479px)";
             justify-content: center;
             align-items: center;
 
-            font-size: 15px;
             height: 50%;
             width: 100%;
 
             #injector {
-                background-color: red;
+                //background-color: red;
                 width: 85%;
                 height: 80vw;
 
@@ -147,7 +144,7 @@ $small: "(max-width: 479px)";
         padding: 10vw;
 
         #contact-line {
-            border-top: 1vw solid red;
+            border-top: 1vw solid gray;
             width: 100%;
             display: flex;
             justify-content: space-between;

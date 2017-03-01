@@ -1,6 +1,6 @@
 // -- HOME
 
-#home {
+#home-background {
     background-image: url('../images/tlo-head.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,15 +30,14 @@
 #products-1 {
 
     #products-common-rail {
+
         background-image: url('../images/common-rail.png');
         background-size: cover;
         background-repeat: no-repeat;
+
     }
 
-    #common-rail {
-        background-color: orange;
-        opacity: 0.5;
-    }
+
 
     #products-injector {
         background-image: url('../images/injector-2.png');

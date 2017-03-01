@@ -30,17 +30,20 @@
 #products-1 {
 
     #products-common-rail {
-        //background-image: url('../images/tlo-about.png');
-        background-size: contain;
+        background-image: url('../images/common-rail.png');
+        background-size: cover;
         background-repeat: no-repeat;
+    }
+
+    #common-rail {
         background-color: orange;
+        opacity: 0.5;
     }
 
     #products-injector {
-        //background-image: url('../images/tlo-about.png');
-        background-size: contain;
+        background-image: url('../images/injector-2.png');
+        background-size: cover;
         background-repeat: no-repeat;
-        background-color: gray;
     }
 }
 
@@ -56,7 +59,7 @@
     background-repeat: no-repeat;
 
     #contact-1 {
-        
+
     }
     #contact-2 {
         visibility: hidden;

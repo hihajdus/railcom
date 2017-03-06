@@ -79,3 +79,19 @@
     }
 
 }
+
+/* -- NAV -- */
+
+.line {
+    width: 50%;
+    height: 3px;
+    content: " ";
+    background-color: white;
+    display: inline-block;
+}
+
+li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

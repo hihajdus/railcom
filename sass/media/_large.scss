@@ -30,15 +30,27 @@ $large: "(min-width: 1024px)";
             }
         }
 
-     #nav {
-            //bottom: 100px;
-            //left: 100px;
+     .nav-panel {
             width: 100%;
             height: 20%;
             background-color: green;
             //opacity: 0.3;
-            //align-self: flex-start;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
         }
+
+    .lang {
+        height: 50px;
+        width: 50px;
+        background-color: yellow;
+    }
+
+    .nav-list {
+        height: 80px;
+        width: 280px;
+        background-color: blue;
+    }
 
     // -- ABOUT
 

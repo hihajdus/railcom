@@ -7,19 +7,28 @@ $medium: "(min-width: 611px) and (max-width: 1023px)";
 
     // -- HOME
 
+    #home-background {
+        height: 600px;
+        width: 100%;
+
+        border-top: 7px solid orange;
+    }
+
         #home {
             display: flex;
             justify-content: center;
             align-items: center;
             //background-size: contain;
-            height: 600px;
+            height: 50%;
             width: 100%;
 
             #home-logo {
                 width: 30vw;
                 height: 20%;
             }
-            border-top: 1vw solid orange;
+        }
+        .nav-panel {
+            visibility: hidden;
         }
 
     // -- ABOUT

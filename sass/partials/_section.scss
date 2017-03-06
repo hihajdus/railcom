@@ -82,6 +82,8 @@
 
 /* -- NAV -- */
 
+
+
 .line {
     width: 20%;
     height: 2px;
@@ -96,4 +98,13 @@ a {
     align-items: center;
     text-decoration: none;
     color: white;
+}
+
+/* -- LANG -- */
+
+.lang {
+    display: flex;
+    justify-content: flex-start;;
+    align-items: flex-start;
+
 }

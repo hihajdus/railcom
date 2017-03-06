@@ -7,21 +7,29 @@ $small: "(max-width: 610px)";
 
 // -- HOME
 
+#home-background {
+    height: 600px;
+    width: 100%;
+    border-top: 2vw solid orange;
+}
+
+
     #home {
         display: flex;
         justify-content: center;
         align-items: center;
 
-        height: 100vw;
+        height: 50%;
         width: 100%;
 
         #home-logo {
             width: 80%;
-            height: 50vw;
+            height: 50%;
         }
-        border-top: 2vw solid orange;
     }
-
+    .nav-panel {
+        visibility: hidden;
+    }
 // -- ABOUT
 
     #about {

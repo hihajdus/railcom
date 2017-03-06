@@ -83,15 +83,17 @@
 /* -- NAV -- */
 
 .line {
-    width: 50%;
-    height: 3px;
+    width: 20%;
+    height: 2px;
     content: " ";
     background-color: white;
-    display: inline-block;
+    //display: inline-block;
 }
 
-li {
+a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    text-decoration: none;
+    color: white;
 }

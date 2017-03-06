@@ -47,9 +47,24 @@ $large: "(min-width: 1024px)";
     }
 
     .nav-list {
-        height: 80px;
-        width: 280px;
+        height: 100px;
+        width: 350px;
         background-color: blue;
+        color: white;
+        a {
+            padding: 2px;
+            .line {
+                margin-left: 10px;
+            }
+            &:hover {
+                .line {
+                    width: 50%;
+                    background-color: orange;
+                }
+                color: orange;
+
+            }
+        }
     }
 
     // -- ABOUT

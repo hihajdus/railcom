@@ -34,7 +34,23 @@ $small: "(max-width: 610px)";
         justify-content: space-around;
         align-items: center;
         .nav-list {
-            visibility: hidden;
+            display: none;
+            position: relative;
+            //display: flex;
+            flex-direction: column;
+            &.is-active {
+                display: flex;
+                position: absolute;
+                width: 400px;
+                height: 400px;
+                background-color: black;
+                .line {
+                    display: none;
+                }
+                a {
+                    //width: 100%;
+                }
+            }
         }
     }
 // -- ABOUT

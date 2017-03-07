@@ -107,4 +107,14 @@ a {
     justify-content: flex-start;;
     align-items: flex-start;
 
+    button {
+        width: 32px;
+        height: 32px;
+        border: 1px solid white;
+        margin: 2px;
+        text-align: center;
+        text-decoration: none;
+        background-color: transparent;
+        color: white;
+    }
 }

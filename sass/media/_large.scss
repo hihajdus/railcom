@@ -12,7 +12,6 @@ $large: "(min-width: 1024px)";
         width: 100%;
         border-top: 7px solid orange;
     }
-
         #home {
             display: flex;
             justify-content: center;
@@ -39,13 +38,12 @@ $large: "(min-width: 1024px)";
             align-items: center;
             padding-left: 20vw;
             padding-right: 20vw;
+            .lang {
+                align-items: flex-start;
+            }
         }
 
-    .lang {
-        height: 100px;
-        width: 150px;
-        //background-color: yellow;
-    }
+
 
     .nav-list {
         height: 100px;
@@ -180,7 +178,7 @@ $large: "(min-width: 1024px)";
         border-top: 7px solid orange;
 
         #contact-1 {
-            width: 100%;
+            width: 70%;
             height: 88%;
             display: flex;
             justify-content: flex-start;

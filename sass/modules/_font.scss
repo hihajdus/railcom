@@ -1,8 +1,19 @@
 @font-face {
+    font-family: 'oswald-regular';
+    src: url('../fonts/oswald-regular.woff2') format('woff2'),
+         url('../fonts/oswald-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
 }
-// -- HOME
 
+// -- HOME
+.lang {
+    button {
+        font-size: 12px;
+        font-family: 'oswald-regular';
+    }
+}
 
 // -- ABOUT
 

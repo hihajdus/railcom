@@ -34,7 +34,10 @@ $medium: "(min-width: 611px) and (max-width: 1023px)";
             display: flex;
             justify-content: space-around;
             align-items: center;
-            .nav-list {
+            .nav-list  {
+                visibility: hidden;
+            }
+            .lang {
                 visibility: hidden;
             }
             .hamburger-menu {
@@ -64,6 +67,11 @@ $medium: "(min-width: 611px) and (max-width: 1023px)";
 
 
     // -- ABOUT
+#about-background {
+    .nav-panel {
+        display: none;
+    }
+}
 
         #about {
             display: flex;
@@ -161,6 +169,11 @@ $medium: "(min-width: 611px) and (max-width: 1023px)";
         }
 
     // -- CONTACT
+#contact-background {
+    .nav-panel {
+        display: none;
+    }
+}
 
     #contact {
         height: 600px;
@@ -178,6 +191,7 @@ $medium: "(min-width: 611px) and (max-width: 1023px)";
             padding: 0 5vw;
             #contact-text{
                 padding: 2vw;
+                width: 50%;
             }
         }
         #contact-2 {

@@ -14,10 +14,15 @@
     content: " ";
 }
 
-
+.arrow {
+    background-image: url('../images/arrow.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: " ";
+}
 // -- ABOUT
 
-#about {
+#about-background {
     background-image: url('../images/tlo-about.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -34,12 +39,14 @@
         background-image: url('../images/common-rail.png');
         background-size: cover;
         background-repeat: no-repeat;
+        opacity: 0.8;
     }
 
     #products-injector {
         background-image: url('../images/injector-2.png');
         background-size: cover;
         background-repeat: no-repeat;
+        opacity: 0.8;
     }
 }
 
@@ -49,7 +56,7 @@
 
 // -- CONTACT
 
-#contact {
+#contact-background {
     background-image: url('../images/tlo-contact.png');
     background-size: cover;
     background-repeat: no-repeat;

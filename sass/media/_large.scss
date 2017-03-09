@@ -6,11 +6,22 @@ $large: "(min-width: 1024px)";
     }
 
     // -- HOME
-
     #home-background {
         height: 900px;
         width: 100%;
         border-top: 7px solid orange;
+    }
+    .arrow-container {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding: 20px;
+    }
+    .arrow {
+        width: 25px;
+        height: 25px;
     }
         #home {
             display: flex;
@@ -71,23 +82,28 @@ $large: "(min-width: 1024px)";
     }
 
     // -- ABOUT
+    #about-background {
+        height: 900px;
+        width: 100%;
+        border-top: 7px solid orange;
+    }
 
         #about {
             display: flex;
             justify-content: flex-start;
             align-items: center;
 
-            height: 900px;
             width: 100%;
-            padding: 18vw;
+            height: 50%;
+
+            padding: 0px 18vw;
 
             #about-text {
-                height: 50%;
-                width: 45%;
+                height: 60%;
+                width: 50%;
                 //background-color: red;
                 padding: 2vw;
             }
-            border-top: 7px solid orange;
         }
 
     // -- PRODUCTS
@@ -170,12 +186,16 @@ $large: "(min-width: 1024px)";
         }
 
     // -- CONTACT
+#contact-background {
+    height: 900px;
+    width: 100%;
+    border-top: 7px solid orange;
+}
 
     #contact {
-        height: 900px;
-        width: 100%;
 
-        border-top: 7px solid orange;
+        width: 100%;
+        height: 80%;
 
         #contact-1 {
             width: 70%;

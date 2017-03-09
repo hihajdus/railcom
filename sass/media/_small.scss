@@ -54,6 +54,11 @@ $small: "(max-width: 610px)";
         }
     }
 // -- ABOUT
+#about-background {
+    .nav-panel {
+        display: none;
+    }
+}
 
     #about {
         display: flex;
@@ -144,7 +149,11 @@ $small: "(max-width: 610px)";
     }
 
 // -- CONTACT
-
+#contact-background {
+    .nav-panel {
+        display: none;
+    }
+}
 #contact {
     height: 100vw;
     width: 100%;

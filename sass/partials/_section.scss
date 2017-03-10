@@ -20,10 +20,18 @@
     background-repeat: no-repeat;
     content: " ";
 }
+
+.arrow-red {
+    background-image: url('../images/arrow-red.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: " ";
+}
+
 // -- ABOUT
 
 #about-background {
-    background-image: url('../images/tlo-about.png');
+    background-image: url('../images/tlo-about-v2.png');
     background-size: cover;
     background-repeat: no-repeat;
     content: " ";
@@ -50,6 +58,13 @@
     }
 }
 
+#arrow-black {
+    background-image: url('../images/arrow-black.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: " ";
+}
+
 #products-2 {
     visibility: hidden;
 }
@@ -57,7 +72,7 @@
 // -- CONTACT
 
 #contact-background {
-    background-image: url('../images/tlo-contact.png');
+    background-image: url('../images/tlo-contact-v2.png');
     background-size: cover;
     background-repeat: no-repeat;
 
